@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Intro section with dropdown navigation main</title>
 </head>
@@ -13,37 +14,52 @@
             <div class="logo">
                 <img src="assets/logo.svg" alt="">
             </div>
-            <div class="nav-links">
-                <ul>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
-                    <li>
-                        <a href="">Careers</a>
-                    </li>
-                    <li>
-                        <a href="">About</a>
-                    </li>
-                </ul>
+            <div class="nav-bar">
+                <div class="dropdown">
+                    <button class="dropbtn">Features
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#"><img src="assets/icon-todo.svg" alt="">Todo List</a>
+                        <a href="#"><img src="assets/icon-calendar.svg" alt="">Calendar</a>
+                        <a href="#"><img src="assets/icon-reminders.svg" alt="">Reminders</a>
+                        <a href="#"><img src="assets/icon-planning.svg" alt="" srcset="">Planning</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Company
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">History</a>
+                        <a href="#">Our Team</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <a href="#">Careers</a>
+                <a href="#">About</a>
             </div>
             <div class="nav-buttons">
-                <button>Login</button>
-                <button>Register</button>
+                <button class="btn-login">Login</button>
+                <button class="btn-register">Register</button>
             </div>
         </nav>
     </header>
     <main>
-        <div id="contain">
+        <div id="container">
             <div class="text">
-                <h1>Make<br>remote work</h1>
-                <p>Get your team in sync, no matter your location.<br>Streamline processes, create team rituals, and<br> watch productivity soar.</p>
-                <button>Learn more</button>
+                <h1 class="main-title">Make<br>remote work</h1>
+                <p class="paragraph">Get your team in sync, no matter your location.<br>Streamline processes, create team rituals, and<br> watch productivity soar.</p>
+                <button class="btn-learn">Learn more</button>
+                <div class="icon">
+                    <img src="assets/client-databiz.svg" alt="">
+                    <img src="assets/client-audiophile.svg" alt="">
+                    <img src="assets/client-maker.svg" alt="">
+                    <img src="assets/client-meet.svg" alt="">
+                </div>
             </div>
             <div class="photo">
-                <img src="assets/image-hero-desktop.png" alt="">
+                <img class="picture" src="assets/image-hero-desktop.png" alt="">
             </div>
         </div>
     </main>

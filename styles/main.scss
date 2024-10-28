@@ -1,0 +1,49 @@
+main {
+
+    #container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 7dvh 4dvh;
+
+        .text {
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+
+            .main-title {
+                font-size: 6rem;
+                margin-top: 20dvh;
+                font-family: 'Epilogue', serif;
+            }
+
+            .paragraph {
+                font-family: 'Epilogue', serif;
+                font-size: 1.5rem;
+                margin-top: 15dvh;
+                color: $mediumGray;
+            }
+
+            .btn-learn {
+                cursor: pointer;
+                margin-top: 6dvh;
+                border: 2px solid black;
+                border-radius: 2dvh;
+                background-color: white;
+                width: 20dvh;
+                height: 7dvh;
+                font-family: 'Epilogue', serif;
+                margin-bottom: 37dvh;
+            }
+        }
+
+        .photo {
+            flex: 1;
+
+            .picture {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}

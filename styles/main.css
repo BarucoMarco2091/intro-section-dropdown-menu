@@ -1,0 +1,29 @@
+main #container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 7dvh 3dvh;
+}
+main #container .text {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+main #container .text .main-title {
+  font-size: 6rem;
+  margin-top: 20dvh;
+  font-family: "Epilogue", serif;
+}
+main #container .text .paragraph {
+  font-family: "Epilogue", serif;
+  font-size: 1.5rem;
+  margin-top: 15dvh;
+  color: gray;
+}
+main #container .photo {
+  flex: 1;
+}
+main #container .photo .picture {
+  max-width: 100%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
