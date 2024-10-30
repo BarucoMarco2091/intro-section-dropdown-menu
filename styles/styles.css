@@ -152,6 +152,10 @@ main #container .text .btn-learn {
   font-family: "Epilogue", serif;
   margin-bottom: 37dvh;
 }
+main #container .text .btn-learn:hover {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+}
 main #container .photo {
   flex: 1;
 }

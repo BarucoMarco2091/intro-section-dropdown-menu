@@ -176,6 +176,11 @@ main {
                 font-family: 'Epilogue', serif;
                 margin-bottom: 37dvh;
             }
+
+            .btn-learn:hover {
+                background-color: $almostBlack;
+                color: $almostWhite;
+            }
         }
 
         .photo {
